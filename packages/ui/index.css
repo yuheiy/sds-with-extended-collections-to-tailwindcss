@@ -1,0 +1,57 @@
+@theme {
+  --font-*: initial;
+  --color-*: initial;
+  --text-*: initial;
+  --font-weight-*: initial;
+  --tracking-*: initial;
+  --leading-*: initial;
+  --radius-*: initial;
+  --shadow-*: initial;
+  --inset-shadow-*: initial;
+  --blur-*: initial;
+  --default-ring-color: light-dark(rgb(0, 106, 255), rgb(0, 106, 255));
+}
+
+@layer base {
+  html,
+  :host {
+    --is-size-base: initial;
+    --is-size-compact: ;
+    --is-size-comfortable: ;
+    @apply bg-default-default scheme-light-dark;
+
+    &[data-size='compact'] {
+      --is-size-base: ;
+      --is-size-compact: initial;
+      --is-size-comfortable: ;
+    }
+
+    &[data-size='comfortable'] {
+      --is-size-base: ;
+      --is-size-compact: ;
+      --is-size-comfortable: initial;
+    }
+  }
+}
+
+@utility scheme-light {
+  --is-light: initial;
+  --is-dark: ;
+}
+
+@utility scheme-dark {
+  --is-light: ;
+  --is-dark: initial;
+}
+
+@utility scheme-light-dark {
+  --is-light: initial;
+  --is-dark: ;
+
+  @media (prefers-color-scheme: dark) {
+    --is-light: ;
+    --is-dark: initial;
+  }
+}
+
+@import './components.generated.css' layer(components);

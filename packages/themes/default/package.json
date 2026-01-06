@@ -1,0 +1,11 @@
+{
+  "name": "@acme/theme-default",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./*.css": "./*.css",
+    "./tokens/*": "./tokens/*",
+    "./package.json": "./package.json"
+  }
+}
