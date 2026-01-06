@@ -1,0 +1,7 @@
+{
+  "extends": "@tsconfig/bases/vite-react",
+  "compilerOptions": {
+    "types": ["vite/client"]
+  },
+  "include": ["src"]
+}

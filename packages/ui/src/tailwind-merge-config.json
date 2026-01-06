@@ -1,0 +1,135 @@
+{
+  "override": {
+    "theme": {
+      "leading": [
+        "none",
+        "title-hero",
+        "title-page",
+        "subtitle",
+        "heading",
+        "subheading",
+        "body",
+        "body-large",
+        "body-small",
+        "body-single",
+        "body-small-single",
+        "code"
+      ],
+      "text": [
+        "10",
+        "09",
+        "08",
+        "07",
+        "06",
+        "05",
+        "04",
+        "03",
+        "02",
+        "01",
+        "title-hero",
+        "title-page",
+        "subtitle",
+        "heading",
+        "subheading",
+        "body",
+        "body-small",
+        "body-large",
+        "code"
+      ],
+      "font-weight": [
+        "thin",
+        "extra-light",
+        "light",
+        "regular",
+        "medium",
+        "semibold",
+        "bold",
+        "extra-bold",
+        "black",
+        "title-hero",
+        "title-page",
+        "subtitle",
+        "heading",
+        "subheading",
+        "body",
+        "body-strong",
+        "code",
+        "code-strong"
+      ],
+      "tracking": [
+        "title-hero",
+        "title-page",
+        "subtitle",
+        "heading",
+        "subheading",
+        "body",
+        "code"
+      ],
+      "radius": [
+        "100",
+        "200",
+        "400",
+        "full"
+      ],
+      "shadow": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600"
+      ],
+      "inset-shadow": [
+        "100",
+        "200",
+        "300",
+        "400",
+        "500",
+        "600"
+      ],
+      "blur": [
+        "100"
+      ]
+    }
+  },
+  "extend": {
+    "theme": {
+      "spacing": [
+        "space-0",
+        "space-100",
+        "space-150",
+        "space-200",
+        "space-300",
+        "space-400",
+        "space-600",
+        "space-800",
+        "space-1200",
+        "space-1600",
+        "space-2400",
+        "space-4000",
+        "space-negative-100",
+        "space-negative-200",
+        "space-negative-300",
+        "space-negative-400",
+        "space-negative-600",
+        "space-050",
+        "depth-0",
+        "depth-100",
+        "depth-200",
+        "depth-400",
+        "depth-800",
+        "depth-1200",
+        "depth-025",
+        "depth-negative-025",
+        "depth-negative-100",
+        "depth-negative-200",
+        "depth-negative-400",
+        "depth-negative-800",
+        "depth-negative-1200",
+        "icon-small",
+        "icon-medium",
+        "icon-large"
+      ]
+    }
+  }
+}

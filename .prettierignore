@@ -1,0 +1,5 @@
+**/*.generated.css
+**/*.tokens.json
+**/tailwind-merge-config.json
+
+pnpm-lock.yaml

@@ -1,0 +1,4 @@
+@import 'tailwindcss';
+@import '@acme/ui/index.css';
+@import '@acme/theme-default/index.css';
+@source '../node_modules/@acme/ui';

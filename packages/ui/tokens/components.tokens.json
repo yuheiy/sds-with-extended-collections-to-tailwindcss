@@ -1,0 +1,272 @@
+{
+  "typography": {
+    "Title Hero": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.Title Hero}",
+        "fontWeight": 700,
+        "fontStyle": "normal",
+        "fontSize": "{text.Title Hero}",
+        "lineHeight": "{leading.Title Hero}",
+        "letterSpacing": "{tracking.Title Hero}",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:e05065be790dd67e05ed8570612080019773b20e,"
+      }
+    },
+    "Title Page": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.Title Page}",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontSize": "{text.Title Page}",
+        "lineHeight": "{leading.Title Page}",
+        "letterSpacing": "{tracking.Title Page}",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:9675eb1e0bbd88db8fbcafb1c287d4e315dbabe4,"
+      }
+    },
+    "Subtitle": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.Subtitle}",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontSize": "{text.Subtitle}",
+        "lineHeight": "{leading.Subtitle}",
+        "letterSpacing": "{tracking.Subtitle}",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:0b8b63fc1f75e7c6c075854f62f0e1e11f35a4ca,"
+      }
+    },
+    "Heading": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.Heading}",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontSize": "{text.Heading}",
+        "lineHeight": "{leading.Heading}",
+        "letterSpacing": "{tracking.Heading}",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:3812a160408a5f194bc07a09dc0bdf8315ae1d79,"
+      }
+    },
+    "Subheading": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.Subheading}",
+        "fontWeight": 600,
+        "fontStyle": "normal",
+        "fontSize": "{text.Subheading}",
+        "lineHeight": "{leading.Subheading}",
+        "letterSpacing": "{tracking.Subheading}",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:bf2f52457780889937465af5f0adda28f990f8a2,"
+      }
+    },
+    "Body Base": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.Body}",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": "{text.Body}",
+        "lineHeight": "{leading.Body}",
+        "letterSpacing": "{tracking.Body}",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:7e416b4d963d209dc3866c7b55a197878e47806e,"
+      }
+    },
+    "Body Strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.Body}",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": "{text.Body}",
+        "lineHeight": "{leading.Body}",
+        "letterSpacing": "{tracking.Body}",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:ad0a2ca3d03ad1e71dbafaaf70ca240b05da3aad,"
+      }
+    },
+    "Body Emphasis": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.Body}",
+        "fontWeight": 400,
+        "fontStyle": "italic",
+        "fontSize": "{text.Body}",
+        "lineHeight": "{leading.Body}",
+        "letterSpacing": "{tracking.Body}",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:0bb0ffe04ae8d83a87012041273a21e045688a37,"
+      }
+    },
+    "Body Link": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.Body}",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": "{text.Body}",
+        "lineHeight": "{leading.Body}",
+        "letterSpacing": "{tracking.Body}",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "UNDERLINE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:2f7fdd7bf779d3f7c769d48f5fc9c0cd5410f521,"
+      }
+    },
+    "Body Small": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.Body}",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": "{text.Body Small}",
+        "lineHeight": "{leading.Body Small}",
+        "letterSpacing": "{tracking.Body}",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:df69cd149814bb9dc1b0bd9850320a2dfaa266f9,"
+      }
+    },
+    "Body Small Strong": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.Body}",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": "{text.Body Small}",
+        "lineHeight": "{leading.Body Small}",
+        "letterSpacing": "{tracking.Body}",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:f150f0c8e877566767fac2c06bb8c2ccf91d195e,"
+      }
+    },
+    "Body Code": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.Code}",
+        "fontWeight": 400,
+        "fontStyle": "normal",
+        "fontSize": "{text.Code}",
+        "lineHeight": "{leading.Code}",
+        "letterSpacing": "{tracking.Code}",
+        "paragraphSpacing": "0",
+        "paragraphIndent": "0",
+        "textDecoration": "NONE",
+        "textCase": "ORIGINAL"
+      },
+      "$description": "",
+      "$extensions": {
+        "styleId": "S:00515c9e85b32dd9d7f73a6103442e58863fa972,"
+      }
+    },
+    "Single Line": {
+      "Body Base": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.Body}",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontSize": "{text.Body}",
+          "lineHeight": "{leading.Body Single}",
+          "letterSpacing": "{tracking.Body}",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "$description": "Used for any text element where you need 100% line height. For example, an input field, a label.",
+        "$extensions": {
+          "styleId": "S:a350b2f2ddf64c563f7f6963d3a5181db34e96b6,"
+        }
+      },
+      "Body Small Strong": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.Body}",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontSize": "{text.Body Small}",
+          "lineHeight": "{leading.Body Small Single}",
+          "letterSpacing": "{tracking.Body}",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "$description": "",
+        "$extensions": {
+          "styleId": "S:f319d523edd1b390db9bd466a98e4315d73ee78a,"
+        }
+      }
+    }
+  }
+}
