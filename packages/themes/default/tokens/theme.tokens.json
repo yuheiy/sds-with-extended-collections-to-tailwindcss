@@ -3790,7 +3790,7 @@
       "$value": [
         {
           "inset": false,
-          "color": "#0c0c0d0d",
+          "color": "{color.Black.100}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.025}",
           "blur": "4px",
@@ -3803,7 +3803,7 @@
       "$value": [
         {
           "inset": false,
-          "color": "#0c0c0d0d",
+          "color": "{color.Black.100}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.025}",
           "blur": "4px",
@@ -3811,7 +3811,7 @@
         },
         {
           "inset": false,
-          "color": "#0c0c0d1a",
+          "color": "{color.Black.200}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.025}",
           "blur": "4px",
@@ -3824,7 +3824,7 @@
       "$value": [
         {
           "inset": false,
-          "color": "#0c0c0d0d",
+          "color": "{color.Black.100}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.100}",
           "blur": "4px",
@@ -3832,7 +3832,7 @@
         },
         {
           "inset": false,
-          "color": "#0c0c0d1a",
+          "color": "{color.Black.200}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.100}",
           "blur": "4px",
@@ -3845,7 +3845,7 @@
       "$value": [
         {
           "inset": false,
-          "color": "#0c0c0d0d",
+          "color": "{color.Black.100}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.100}",
           "blur": "4px",
@@ -3853,7 +3853,7 @@
         },
         {
           "inset": false,
-          "color": "#0c0c0d1a",
+          "color": "{color.Black.200}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.400}",
           "blur": "32px",
@@ -3866,7 +3866,7 @@
       "$value": [
         {
           "inset": false,
-          "color": "#0c0c0d0d",
+          "color": "{color.Black.100}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.100}",
           "blur": "4px",
@@ -3874,7 +3874,7 @@
         },
         {
           "inset": false,
-          "color": "#0c0c0d1a",
+          "color": "{color.Black.200}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.400}",
           "blur": "16px",
@@ -3887,7 +3887,7 @@
       "$value": [
         {
           "inset": false,
-          "color": "#0c0c0d66",
+          "color": "{color.Black.400}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.400}",
           "blur": "32px",
@@ -3902,7 +3902,7 @@
       "$value": [
         {
           "inset": true,
-          "color": "#0c0c0d0d",
+          "color": "{color.Black.100}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.025}",
           "blur": "4px",
@@ -3915,7 +3915,7 @@
       "$value": [
         {
           "inset": true,
-          "color": "#0c0c0d0d",
+          "color": "{color.Black.100}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.025}",
           "blur": "4px",
@@ -3928,7 +3928,7 @@
       "$value": [
         {
           "inset": true,
-          "color": "#0c0c0d0d",
+          "color": "{color.Black.100}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.100}",
           "blur": "4px",
@@ -3941,7 +3941,7 @@
       "$value": [
         {
           "inset": true,
-          "color": "#0c0c0d1a",
+          "color": "{color.Black.200}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.400}",
           "blur": "32px",
@@ -3954,7 +3954,7 @@
       "$value": [
         {
           "inset": true,
-          "color": "#0c0c0d1a",
+          "color": "{color.Black.200}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.400}",
           "blur": "16px",
@@ -3967,7 +3967,7 @@
       "$value": [
         {
           "inset": true,
-          "color": "#0c0c0d66",
+          "color": "{color.Black.400}",
           "offsetX": "{spacing.Depth.0}",
           "offsetY": "{spacing.Depth.400}",
           "blur": "32px",

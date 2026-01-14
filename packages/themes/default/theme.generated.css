@@ -370,16 +370,16 @@
   --font-weight-body-strong: var(--font-weight-regular);
   --font-weight-code: var(--font-weight-regular);
   --font-weight-code-strong: var(--font-weight-regular);
-  --shadow-100: var(--spacing-depth-0) var(--spacing-depth-025) 4px var(--spacing-depth-0) #0c0c0d0d;
-  --shadow-200: var(--spacing-depth-0) var(--spacing-depth-025) 4px var(--spacing-depth-0) #0c0c0d0d, var(--spacing-depth-0) var(--spacing-depth-025) 4px var(--spacing-depth-0) #0c0c0d1a;
-  --shadow-300: var(--spacing-depth-0) var(--spacing-depth-100) 4px var(--spacing-depth-negative-025) #0c0c0d0d, var(--spacing-depth-0) var(--spacing-depth-100) 4px var(--spacing-depth-negative-025) #0c0c0d1a;
-  --shadow-400: var(--spacing-depth-0) var(--spacing-depth-100) 4px var(--spacing-depth-negative-100) #0c0c0d0d, var(--spacing-depth-0) var(--spacing-depth-400) 32px var(--spacing-depth-negative-100) #0c0c0d1a;
-  --shadow-500: var(--spacing-depth-0) var(--spacing-depth-100) 4px var(--spacing-depth-negative-100) #0c0c0d0d, var(--spacing-depth-0) var(--spacing-depth-400) 16px var(--spacing-depth-negative-200) #0c0c0d1a;
-  --shadow-600: var(--spacing-depth-0) var(--spacing-depth-400) 32px var(--spacing-depth-negative-200) #0c0c0d66;
-  --inset-shadow-100: inset var(--spacing-depth-0) var(--spacing-depth-025) 4px var(--spacing-depth-0) #0c0c0d0d;
-  --inset-shadow-200: inset var(--spacing-depth-0) var(--spacing-depth-025) 4px var(--spacing-depth-0) #0c0c0d0d;
-  --inset-shadow-300: inset var(--spacing-depth-0) var(--spacing-depth-100) 4px var(--spacing-depth-negative-025) #0c0c0d0d;
-  --inset-shadow-400: inset var(--spacing-depth-0) var(--spacing-depth-400) 32px var(--spacing-depth-negative-100) #0c0c0d1a;
-  --inset-shadow-500: inset var(--spacing-depth-0) var(--spacing-depth-400) 16px var(--spacing-depth-negative-200) #0c0c0d1a;
-  --inset-shadow-600: inset var(--spacing-depth-0) var(--spacing-depth-400) 32px var(--spacing-depth-negative-200) #0c0c0d66;
+  --shadow-100: var(--spacing-depth-0) var(--spacing-depth-025) 4px var(--spacing-depth-0) var(--color-black-100);
+  --shadow-200: var(--spacing-depth-0) var(--spacing-depth-025) 4px var(--spacing-depth-0) var(--color-black-100), var(--spacing-depth-0) var(--spacing-depth-025) 4px var(--spacing-depth-0) var(--color-black-200);
+  --shadow-300: var(--spacing-depth-0) var(--spacing-depth-100) 4px var(--spacing-depth-negative-025) var(--color-black-100), var(--spacing-depth-0) var(--spacing-depth-100) 4px var(--spacing-depth-negative-025) var(--color-black-200);
+  --shadow-400: var(--spacing-depth-0) var(--spacing-depth-100) 4px var(--spacing-depth-negative-100) var(--color-black-100), var(--spacing-depth-0) var(--spacing-depth-400) 32px var(--spacing-depth-negative-100) var(--color-black-200);
+  --shadow-500: var(--spacing-depth-0) var(--spacing-depth-100) 4px var(--spacing-depth-negative-100) var(--color-black-100), var(--spacing-depth-0) var(--spacing-depth-400) 16px var(--spacing-depth-negative-200) var(--color-black-200);
+  --shadow-600: var(--spacing-depth-0) var(--spacing-depth-400) 32px var(--spacing-depth-negative-200) var(--color-black-400);
+  --inset-shadow-100: inset var(--spacing-depth-0) var(--spacing-depth-025) 4px var(--spacing-depth-0) var(--color-black-100);
+  --inset-shadow-200: inset var(--spacing-depth-0) var(--spacing-depth-025) 4px var(--spacing-depth-0) var(--color-black-100);
+  --inset-shadow-300: inset var(--spacing-depth-0) var(--spacing-depth-100) 4px var(--spacing-depth-negative-025) var(--color-black-100);
+  --inset-shadow-400: inset var(--spacing-depth-0) var(--spacing-depth-400) 32px var(--spacing-depth-negative-100) var(--color-black-200);
+  --inset-shadow-500: inset var(--spacing-depth-0) var(--spacing-depth-400) 16px var(--spacing-depth-negative-200) var(--color-black-200);
+  --inset-shadow-600: inset var(--spacing-depth-0) var(--spacing-depth-400) 32px var(--spacing-depth-negative-200) var(--color-black-400);
 }
