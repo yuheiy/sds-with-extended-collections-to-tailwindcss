@@ -11,7 +11,7 @@ const config: Config = {
 
   // prettier-plugin-tailwindcss
   tailwindStylesheet: './apps/web/src/index.css',
-  tailwindFunctions: ['cn', 'tv', 'twMerge'],
+  tailwindFunctions: ['tv', 'twMerge'],
 };
 
 export default config;
