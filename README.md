@@ -33,15 +33,15 @@ Based on [Simple Design System with Extended Collections](https://www.figma.com/
 │     │    • Embed mode switching (light-dark(), CSS variables)               │
 │     ▼                                                                       │
 │   packages/themes/*/tokens/theme.tokens.json                                │
-│   packages/ui/tokens/components.tokens.json                                 │
+│   packages/ui/tokens/typography.tokens.json                                 │
 │     │                                                                       │
 │     │  Generate via Style Dictionary                                        │
 │     │    • CSS variables in @theme blocks                                   │
-│     │    • Component classes with @apply                                    │
+│     │    • Typography utilities with @utility                               │
 │     │    • tailwind-merge configuration                                     │
 │     ▼                                                                       │
 │   packages/themes/*/theme.generated.css                                     │
-│   packages/ui/components.generated.css                                      │
+│   packages/ui/typography.generated.css                                      │
 │   packages/ui/src/tailwind-merge-config.json                                │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
@@ -85,8 +85,8 @@ sds-with-extended-collections-to-tailwindcss/
 │   │       └── package.json
 │   └── ui/
 │       ├── tokens/
-│       │   └── components.tokens.json  # (generated)
-│       ├── components.generated.css    # (generated)
+│       │   └── typography.tokens.json  # (generated)
+│       ├── typography.generated.css    # (generated)
 │       ├── index.css
 │       └── src/
 ├── apps/
@@ -201,15 +201,23 @@ Style Dictionary (`sd.config.ts`) generates the final CSS:
 }
 ```
 
-**Component CSS** (`components.generated.css`):
+**Typography CSS** (`typography.generated.css`):
 
 ```css
-.typography-title-hero {
-  @apply font-title-hero text-title-hero leading-title-hero font-[700] tracking-title-hero;
+@utility typography-title-hero {
+  font-family: var(--font-title-hero);
+  font-size: var(--text-title-hero);
+  line-height: var(--leading-title-hero);
+  font-weight: 700;
+  letter-spacing: var(--tracking-title-hero);
 }
 
-.typography-body-base {
-  @apply font-body text-body leading-body font-[400] tracking-body;
+@utility typography-body-base {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  font-weight: 400;
+  letter-spacing: var(--tracking-body);
 }
 ```
 
