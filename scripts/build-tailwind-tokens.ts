@@ -109,9 +109,13 @@ const themeTokensEntries = Object.entries({
     },
 
     spacing: {
-      ...mapTokens(figmaTokens.Size.Space, (key, token) => [key, pxToRem(token)]),
-      Depth: figmaTokens.Size.Depth,
-      Icon: mapTokens(figmaTokens.Size.Icon, (key, token) => [key, pxToRem(token)]),
+      ...mapTokens(
+        {
+          ...figmaTokens.Size.Space,
+          Icon: figmaTokens.Size.Icon,
+        },
+        (key, token) => [key, pxToRem(token)],
+      ),
     },
 
     font: {
@@ -187,6 +191,10 @@ const themeTokensEntries = Object.entries({
       ...figmaTokens.Size.Radius,
     },
 
+    depth: {
+      ...figmaTokens.Size.Depth,
+    },
+
     shadow: {
       ...figmaTokens['Effect-styles']['Drop Shadow'],
     },
@@ -222,7 +230,7 @@ function rewriteReferences(value: string) {
     .replaceAll(/{Theme\.(.+)\.Font Size( .+)?}/g, '{text.$1$2}')
     .replaceAll(/{Theme\.(.+)\.Letter Spacing( .+)?}/g, '{tracking.$1$2}')
     .replaceAll(/{Theme\.(.+)\.Line Height( .+)?}/g, '{leading.$1$2}')
-    .replaceAll(/{Size\.Depth\./g, '{spacing.Depth.')
+    .replaceAll(/{Size\.Depth\./g, '{depth.')
     .replaceAll(/{Color Primitives\./g, '{color.')
     .replaceAll(/{Typography Primitives\.Scale\.Scale /g, '{text.')
     .replaceAll(/{Typography Primitives\.Weight\.Weight /g, '{font-weight.')

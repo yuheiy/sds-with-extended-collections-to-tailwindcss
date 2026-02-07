@@ -2795,164 +2795,6 @@
         }
       }
     },
-    "Depth": {
-      "0": {
-        "$type": "dimension",
-        "$value": "0px",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "0px",
-            "Compact": "0px",
-            "Comfortable": "0px"
-          }
-        }
-      },
-      "100": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 4px) var(--is-size-compact, 2px) var(--is-size-comfortable, 6px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "4px",
-            "Compact": "2px",
-            "Comfortable": "6px"
-          }
-        }
-      },
-      "200": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 8px) var(--is-size-compact, 6px) var(--is-size-comfortable, 12px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "8px",
-            "Compact": "6px",
-            "Comfortable": "12px"
-          }
-        }
-      },
-      "400": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 16px) var(--is-size-compact, 12px) var(--is-size-comfortable, 20px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "16px",
-            "Compact": "12px",
-            "Comfortable": "20px"
-          }
-        }
-      },
-      "800": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 32px) var(--is-size-compact, 24px) var(--is-size-comfortable, 40px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "32px",
-            "Compact": "24px",
-            "Comfortable": "40px"
-          }
-        }
-      },
-      "1200": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 48px) var(--is-size-compact, 32px) var(--is-size-comfortable, 64px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "48px",
-            "Compact": "32px",
-            "Comfortable": "64px"
-          }
-        }
-      },
-      "025": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, 1px) var(--is-size-compact, 1px) var(--is-size-comfortable, 2px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "1px",
-            "Compact": "1px",
-            "Comfortable": "2px"
-          }
-        }
-      },
-      "Negative 025": {
-        "$type": "dimension",
-        "$value": "-1px",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "-1px",
-            "Compact": "-1px",
-            "Comfortable": "-1px"
-          }
-        }
-      },
-      "Negative 100": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, -4px) var(--is-size-compact, -2px) var(--is-size-comfortable, -6px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "-4px",
-            "Compact": "-2px",
-            "Comfortable": "-6px"
-          }
-        }
-      },
-      "Negative 200": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, -8px) var(--is-size-compact, -6px) var(--is-size-comfortable, -12px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "-8px",
-            "Compact": "-6px",
-            "Comfortable": "-12px"
-          }
-        }
-      },
-      "Negative 400": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, -16px) var(--is-size-compact, -12px) var(--is-size-comfortable, -20px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "-16px",
-            "Compact": "-12px",
-            "Comfortable": "-20px"
-          }
-        }
-      },
-      "Negative 800": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, -32px) var(--is-size-compact, -24px) var(--is-size-comfortable, -40px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "-32px",
-            "Compact": "-24px",
-            "Comfortable": "-40px"
-          }
-        }
-      },
-      "Negative 1200": {
-        "$type": "dimension",
-        "$value": "var(--is-size-base, -48px) var(--is-size-compact, -32px) var(--is-size-comfortable, -64px)",
-        "$description": "",
-        "$extensions": {
-          "mode": {
-            "Base": "-48px",
-            "Compact": "-32px",
-            "Comfortable": "-64px"
-          }
-        }
-      }
-    },
     "Icon": {
       "Small": {
         "$type": "dimension",
@@ -3782,6 +3624,164 @@
       }
     }
   },
+  "depth": {
+    "0": {
+      "$type": "dimension",
+      "$value": "0px",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "0px",
+          "Compact": "0px",
+          "Comfortable": "0px"
+        }
+      }
+    },
+    "100": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 4px) var(--is-size-compact, 2px) var(--is-size-comfortable, 6px)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "4px",
+          "Compact": "2px",
+          "Comfortable": "6px"
+        }
+      }
+    },
+    "200": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 8px) var(--is-size-compact, 6px) var(--is-size-comfortable, 12px)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "8px",
+          "Compact": "6px",
+          "Comfortable": "12px"
+        }
+      }
+    },
+    "400": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 16px) var(--is-size-compact, 12px) var(--is-size-comfortable, 20px)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "16px",
+          "Compact": "12px",
+          "Comfortable": "20px"
+        }
+      }
+    },
+    "800": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 32px) var(--is-size-compact, 24px) var(--is-size-comfortable, 40px)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "32px",
+          "Compact": "24px",
+          "Comfortable": "40px"
+        }
+      }
+    },
+    "1200": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 48px) var(--is-size-compact, 32px) var(--is-size-comfortable, 64px)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "48px",
+          "Compact": "32px",
+          "Comfortable": "64px"
+        }
+      }
+    },
+    "025": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, 1px) var(--is-size-compact, 1px) var(--is-size-comfortable, 2px)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "1px",
+          "Compact": "1px",
+          "Comfortable": "2px"
+        }
+      }
+    },
+    "Negative 025": {
+      "$type": "dimension",
+      "$value": "-1px",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "-1px",
+          "Compact": "-1px",
+          "Comfortable": "-1px"
+        }
+      }
+    },
+    "Negative 100": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, -4px) var(--is-size-compact, -2px) var(--is-size-comfortable, -6px)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "-4px",
+          "Compact": "-2px",
+          "Comfortable": "-6px"
+        }
+      }
+    },
+    "Negative 200": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, -8px) var(--is-size-compact, -6px) var(--is-size-comfortable, -12px)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "-8px",
+          "Compact": "-6px",
+          "Comfortable": "-12px"
+        }
+      }
+    },
+    "Negative 400": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, -16px) var(--is-size-compact, -12px) var(--is-size-comfortable, -20px)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "-16px",
+          "Compact": "-12px",
+          "Comfortable": "-20px"
+        }
+      }
+    },
+    "Negative 800": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, -32px) var(--is-size-compact, -24px) var(--is-size-comfortable, -40px)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "-32px",
+          "Compact": "-24px",
+          "Comfortable": "-40px"
+        }
+      }
+    },
+    "Negative 1200": {
+      "$type": "dimension",
+      "$value": "var(--is-size-base, -48px) var(--is-size-compact, -32px) var(--is-size-comfortable, -64px)",
+      "$description": "",
+      "$extensions": {
+        "mode": {
+          "Base": "-48px",
+          "Compact": "-32px",
+          "Comfortable": "-64px"
+        }
+      }
+    }
+  },
   "shadow": {
     "100": {
       "$type": "shadow",
@@ -3789,10 +3789,10 @@
         {
           "inset": false,
           "color": "{color.Black.100}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.025}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.025}",
           "blur": "4px",
-          "spread": "{spacing.Depth.0}"
+          "spread": "{depth.0}"
         }
       ]
     },
@@ -3802,18 +3802,18 @@
         {
           "inset": false,
           "color": "{color.Black.100}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.025}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.025}",
           "blur": "4px",
-          "spread": "{spacing.Depth.0}"
+          "spread": "{depth.0}"
         },
         {
           "inset": false,
           "color": "{color.Black.200}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.025}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.025}",
           "blur": "4px",
-          "spread": "{spacing.Depth.0}"
+          "spread": "{depth.0}"
         }
       ]
     },
@@ -3823,18 +3823,18 @@
         {
           "inset": false,
           "color": "{color.Black.100}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.100}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.100}",
           "blur": "4px",
-          "spread": "{spacing.Depth.Negative 025}"
+          "spread": "{depth.Negative 025}"
         },
         {
           "inset": false,
           "color": "{color.Black.200}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.100}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.100}",
           "blur": "4px",
-          "spread": "{spacing.Depth.Negative 025}"
+          "spread": "{depth.Negative 025}"
         }
       ]
     },
@@ -3844,18 +3844,18 @@
         {
           "inset": false,
           "color": "{color.Black.100}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.100}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.100}",
           "blur": "4px",
-          "spread": "{spacing.Depth.Negative 100}"
+          "spread": "{depth.Negative 100}"
         },
         {
           "inset": false,
           "color": "{color.Black.200}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.400}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.400}",
           "blur": "32px",
-          "spread": "{spacing.Depth.Negative 100}"
+          "spread": "{depth.Negative 100}"
         }
       ]
     },
@@ -3865,18 +3865,18 @@
         {
           "inset": false,
           "color": "{color.Black.100}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.100}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.100}",
           "blur": "4px",
-          "spread": "{spacing.Depth.Negative 100}"
+          "spread": "{depth.Negative 100}"
         },
         {
           "inset": false,
           "color": "{color.Black.200}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.400}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.400}",
           "blur": "16px",
-          "spread": "{spacing.Depth.Negative 200}"
+          "spread": "{depth.Negative 200}"
         }
       ]
     },
@@ -3886,10 +3886,10 @@
         {
           "inset": false,
           "color": "{color.Black.400}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.400}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.400}",
           "blur": "32px",
-          "spread": "{spacing.Depth.Negative 200}"
+          "spread": "{depth.Negative 200}"
         }
       ]
     }
@@ -3901,10 +3901,10 @@
         {
           "inset": true,
           "color": "{color.Black.100}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.025}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.025}",
           "blur": "4px",
-          "spread": "{spacing.Depth.0}"
+          "spread": "{depth.0}"
         }
       ]
     },
@@ -3914,10 +3914,10 @@
         {
           "inset": true,
           "color": "{color.Black.100}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.025}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.025}",
           "blur": "4px",
-          "spread": "{spacing.Depth.0}"
+          "spread": "{depth.0}"
         }
       ]
     },
@@ -3927,10 +3927,10 @@
         {
           "inset": true,
           "color": "{color.Black.100}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.100}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.100}",
           "blur": "4px",
-          "spread": "{spacing.Depth.Negative 025}"
+          "spread": "{depth.Negative 025}"
         }
       ]
     },
@@ -3940,10 +3940,10 @@
         {
           "inset": true,
           "color": "{color.Black.200}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.400}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.400}",
           "blur": "32px",
-          "spread": "{spacing.Depth.Negative 100}"
+          "spread": "{depth.Negative 100}"
         }
       ]
     },
@@ -3953,10 +3953,10 @@
         {
           "inset": true,
           "color": "{color.Black.200}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.400}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.400}",
           "blur": "16px",
-          "spread": "{spacing.Depth.Negative 200}"
+          "spread": "{depth.Negative 200}"
         }
       ]
     },
@@ -3966,10 +3966,10 @@
         {
           "inset": true,
           "color": "{color.Black.400}",
-          "offsetX": "{spacing.Depth.0}",
-          "offsetY": "{spacing.Depth.400}",
+          "offsetX": "{depth.0}",
+          "offsetY": "{depth.400}",
           "blur": "32px",
-          "spread": "{spacing.Depth.Negative 200}"
+          "spread": "{depth.Negative 200}"
         }
       ]
     }
